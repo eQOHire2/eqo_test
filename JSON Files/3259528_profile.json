@@ -1,0 +1,20 @@
+{
+	"User": {
+		"first":"SCOTT",
+		"last":"STIRITZ",
+		"education":"0",
+		"picture":"3259528_img.jpg",
+		"resume":"3259528_resume.pdf",
+		"linkedin":"www.linkedin.com",
+		"video":"www.youtube.com",
+		"experience":"5",
+		"Communication":"10",
+		"Desktop Support":"60",
+		"Healthcare":"20",
+		"Imaging":"10",
+		"Infrastructure":"80",
+		"Leadership":"30",
+		"Project Management":"20",
+		"id":"3259528"
+	}
+}

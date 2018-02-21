@@ -1,0 +1,20 @@
+{
+	"User": {
+		"first":"MARTY",
+		"last":"WHITE",
+		"education":"0",
+		"picture":"1251385_img.jpg",
+		"resume":"1251385_resume.pdf",
+		"linkedin":"www.linkedin.com",
+		"video":"www.youtube.com",
+		"experience":"11",
+		"Communication":"20",
+		"Desktop Support":"80",
+		"Healthcare":"30",
+		"Imaging":"10",
+		"Infrastructure":"90",
+		"Leadership":"60",
+		"Project Management":"30",
+		"id":"1251385"
+	}
+}

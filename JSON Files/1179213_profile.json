@@ -1,0 +1,20 @@
+{
+	"User": {
+		"first":"LUIS",
+		"last":"BATISTA",
+		"education":"0",
+		"picture":"1179213_img.jpg",
+		"resume":"1179213_resume.pdf",
+		"linkedin":"www.linkedin.com",
+		"video":"www.youtube.com",
+		"experience":"10",
+		"Communication":"0",
+		"Desktop Support":"70",
+		"Healthcare":"30",
+		"Imaging":"20",
+		"Infrastructure":"80",
+		"Leadership":"40",
+		"Project Management":"20",
+		"id":"1179213"
+	}
+}

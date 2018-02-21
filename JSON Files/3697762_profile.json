@@ -1,0 +1,20 @@
+{
+	"User": {
+		"first":"PATRICK",
+		"last":"DUSSEAU",
+		"education":"0",
+		"picture":"3697762_img.jpg",
+		"resume":"3697762_resume.pdf",
+		"linkedin":"www.linkedin.com",
+		"video":"www.youtube.com",
+		"experience":"10",
+		"Communication":"30",
+		"Desktop Support":"60",
+		"Healthcare":"50",
+		"Imaging":"30",
+		"Infrastructure":"100",
+		"Leadership":"60",
+		"Project Management":"30",
+		"id":"3697762"
+	}
+}
