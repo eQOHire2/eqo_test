@@ -5,11 +5,14 @@ import decimal
 
 
 dynamodb = boto3.resource('dynamodb')
-table = dynamodb.Table('Test')
+table = dynamodb.Table('Main_Table')
 
 s3 = boto3.resource('s3')
-bucket_name = 'eqoresumetest'
-bucket = s3.Bucket(bucket_name)
+jpeg_bucket_name = 'eqo-jpeg-test'
+jpeg_bucket = s3.Bucket(jpeg_bucket_name)
+
+pdf_bucket_name = 'eqo-pdf-test'
+pdf_bucket = s3.Bucket(pdf_bucket_name)
 
 
 def write_json_to_dynamo(folder):
@@ -29,12 +32,12 @@ def write_json_to_dynamo(folder):
 
 def upload_resumes(folder):
     for filename in os.listdir(folder):
-        s3.Object(bucket_name, filename).put(Body=open(folder + filename, 'rb'))
+        s3.Object(jpeg_bucket_name, filename).put(Body=open(folder + filename, 'rb'))
 
 
 def upload_pictures(folder):
     for filename in os.listdir(folder):
-        s3.Object(bucket_name, filename).put(Body=open(folder + filename, 'rb'))
+        s3.Object(pdf_bucket_name, filename).put(Body=open(folder + filename, 'rb'))
 
 
 json_folder = 'JSON Files/'
