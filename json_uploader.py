@@ -32,12 +32,12 @@ def write_json_to_dynamo(folder):
 
 def upload_resumes(folder):
     for filename in os.listdir(folder):
-        s3.Object(jpeg_bucket_name, filename).put(Body=open(folder + filename, 'rb'))
+        s3.Object(pdf_bucket_name, filename).put(Body=open(folder + filename, 'rb'))
 
 
 def upload_pictures(folder):
     for filename in os.listdir(folder):
-        s3.Object(pdf_bucket_name, filename).put(Body=open(folder + filename, 'rb'))
+        s3.Object(jpeg_bucket_name, filename).put(Body=open(folder + filename, 'rb'))
 
 
 json_folder = 'JSON Files/'
